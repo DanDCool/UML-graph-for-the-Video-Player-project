@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2126" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3060" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -218,7 +218,7 @@
           <mxGeometry y="34" width="160" height="36" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-108" value="ContentController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1440" y="210" width="270" height="130" as="geometry" />
+          <mxGeometry x="1450" y="210" width="270" height="130" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-110" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="p7GLw8C22sK7vnD7iG7I-108" vertex="1">
           <mxGeometry y="26" width="270" height="8" as="geometry" />
@@ -227,16 +227,16 @@
           <mxGeometry y="34" width="270" height="96" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-112" value="ChannelController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1010" y="570" width="240" height="200" as="geometry" />
+          <mxGeometry x="1450" y="356" width="270" height="200" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-114" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="p7GLw8C22sK7vnD7iG7I-112" vertex="1">
-          <mxGeometry y="26" width="240" height="8" as="geometry" />
+          <mxGeometry y="26" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-115" value="+ followChannel(Account,Channel):&lt;div&gt;+ showSubscriptions(Account): String&lt;/div&gt;&lt;div&gt;+ showChannelContent(int): String&lt;/div&gt;&lt;div&gt;+ showDetailedChannelContent(int): String&lt;/div&gt;&lt;div&gt;+ createChannel(Account):&lt;/div&gt;&lt;div&gt;+ enterChannel(Account): String&lt;/div&gt;&lt;div&gt;+ addContentToChannel(Account,Content):&lt;/div&gt;&lt;div&gt;+ showChannelList(): String&lt;/div&gt;&lt;div&gt;+ showChannelFollowers(int): String&lt;br&gt;+ editChannelCiontent(int):&lt;/div&gt;&lt;div&gt;+ showMostFamousChannels(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="p7GLw8C22sK7vnD7iG7I-112" vertex="1">
-          <mxGeometry y="34" width="240" height="166" as="geometry" />
+          <mxGeometry y="34" width="270" height="166" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-116" value="ReportController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1200" y="288" width="230" height="100" as="geometry" />
+          <mxGeometry x="1200" y="298" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-118" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="p7GLw8C22sK7vnD7iG7I-116" vertex="1">
           <mxGeometry y="26" width="230" height="8" as="geometry" />
@@ -245,13 +245,13 @@
           <mxGeometry y="34" width="230" height="66" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-120" value="PlaylistController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="920" y="462" width="210" height="90" as="geometry" />
+          <mxGeometry x="960" y="210" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-122" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="p7GLw8C22sK7vnD7iG7I-120" vertex="1">
-          <mxGeometry y="26" width="210" height="8" as="geometry" />
+          <mxGeometry y="26" width="220" height="8" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-123" value="+ createPlaylist(Account):&lt;div&gt;+ addContentToPlaylist(Content):&lt;/div&gt;&lt;div&gt;+ showUserPlaylists(Account): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="p7GLw8C22sK7vnD7iG7I-120" vertex="1">
-          <mxGeometry y="34" width="210" height="56" as="geometry" />
+          <mxGeometry y="34" width="220" height="56" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-124" value="CommentController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1199" y="210" width="231" height="70" as="geometry" />
@@ -263,7 +263,7 @@
           <mxGeometry y="34" width="231" height="36" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-128" value="AccountController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="780" y="318" width="220" height="120" as="geometry" />
+          <mxGeometry x="960" y="318" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="p7GLw8C22sK7vnD7iG7I-130" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="p7GLw8C22sK7vnD7iG7I-128" vertex="1">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
